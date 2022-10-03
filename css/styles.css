@@ -323,7 +323,11 @@ margin: -1px;
 
 .logo-ftr {
   margin-bottom: 20px;
-  margin-top: 20px;
+}
+
+.logo-part-ftr {
+  color: var(--hero-text-color);
+  font-family: "Raleway", sans-serif;
 }
 
 .address {
@@ -331,12 +335,17 @@ margin: -1px;
 }
 
 .address-list {
+  margin-top: 0;
   padding-left: 0;
   margin-bottom: 0;
 }
 
-.address-list a{
-  padding-bottom: 9px;
+.address-list li{
+ margin-bottom: 9px;
+}
+
+.address-list>li:last-child {
+  margin-bottom: 0;
 }
 
 .address-section {
@@ -362,10 +371,7 @@ margin: -1px;
   color: var(--accent-color);
 }
 
-.logo-part-ftr {
-  color: var(--hero-text-color);
-  font-family: "Raleway", sans-serif;
-}
+
 
 /* styles for portfolio */
 /* Button */
@@ -383,6 +389,14 @@ margin: -1px;
   justify-content: center;
 }
 
+.button-list>li {
+  margin-right: 8px;
+}
+
+.button-list>li:last-child {
+  margin-right: 0;
+}
+
 .button-primary {
   color: var(--primary-text-color);
   background-color: var(--portfolio-button-bgr);
@@ -398,9 +412,12 @@ margin: -1px;
   padding-top: 3px;
   padding-left: 22px;
   padding-right: 22px;
-  margin-left: 4px;
-  margin-right: 4px;
   height: 38px;
+}
+
+.first-button {
+  padding-left: 25px;
+  padding-right: 25px;
 }
 
 .button-list .button-primary:hover,
