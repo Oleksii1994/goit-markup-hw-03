@@ -27,23 +27,23 @@
           >
           <ul class="site-nav list">
             <li>
-              <a href="./index.html" class="link current">Студія</a>
+              <a href="./index.html" class="link link-nav current">Студія</a>
             </li>
             <li>
-              <a href="./portfolio.html" class="link">Портфоліо</a>
+              <a href="./portfolio.html" class="link link-nav">Портфоліо</a>
             </li>
-            <li><a href="./" class="link">Контакти</a></li>
+            <li><a href="./" class="link link-nav">Контакти</a></li>
           </ul>
         </nav>
 
         <ul class="contacts-nav main-nav list">
           <li>
-            <a href="mailto:info@devstudio.com" class="link"
+            <a href="mailto:info@devstudio.com" class="link link-nav"
               >info@devstudio.com</a
             >
           </li>
           <li>
-            <a href="tel:+380961111111" class="link tel-link"
+            <a href="tel:+380961111111" class="link link-nav tel-link"
               >+38 096 111 11 11</a
             >
           </li>
@@ -52,7 +52,7 @@
     </header>
 
     <main>
-      <section class="section hero">
+      <section class="hero">
         <div class="container container-hero">
           <h1 class="hero-title">Ефективні рішення для вашого бізнесу</h1>
           <button type="button" class="button">Замовити послугу</button>
@@ -99,7 +99,7 @@
         </div>
       </section>
 
-      <section class="section">
+      <section class="section-work">
         <div class="container">
           <h2 class="section-title title-centered">Чим ми займаємося</h2>
           <ul class="work-list list">
@@ -142,8 +142,10 @@
                 alt="Посміхаючийся чоловік з темною бородою в бордовій сорочці і в окулярах"
                 width="270"
               />
-              <h3 class="team-title">Ігор Дем'яненко</h3>
-              <p lang="en" class="job-title">Product Designer</p>
+              <div class="team-container">
+                <h3 class="team-title">Ігор Дем'яненко</h3>
+                <p lang="en" class="job-title">Product Designer</p>
+              </div>
             </li>
 
             <li class="description-bgr">
@@ -152,8 +154,10 @@
                 alt="Гарна білява дівчина одягнена в білу блузку, чорний жакет і в окулярах посміхається"
                 width="270"
               />
-              <h3 class="team-title">Ольга Рєпіна</h3>
-              <p lang="en" class="job-title">Frontend Developer</p>
+              <div class="team-container">
+                <h3 class="team-title">Ольга Рєпіна</h3>
+                <p lang="en" class="job-title">Frontend Developer</p>
+              </div>
             </li>
 
             <li class="description-bgr">
@@ -162,8 +166,10 @@
                 alt="Молодий чоловік з каштановим волоссям і щетиною, вдягнений у світлу сорочку посміхається і дивится вбік"
                 width="270"
               />
-              <h3 class="team-title">Микола Тарасов</h3>
-              <p lang="en" class="job-title">Marketing</p>
+              <div class="team-container">
+                <h3 class="team-title">Микола Тарасов</h3>
+                <p lang="en" class="job-title">Marketing</p>
+              </div>
             </li>
 
             <li class="description-bgr">
@@ -172,8 +178,10 @@
                 alt="чоловік в окулярах с темним волоссям і бородою, вдягнений в чорну футболку трохи посміхається"
                 width="270"
               />
-              <h3 class="team-title">Михайло Єрмаков</h3>
-              <p lang="en" class="job-title">UI Designer</p>
+              <div class="team-container">
+                <h3 class="team-title">Михайло Єрмаков</h3>
+                <p lang="en" class="job-title">UI Designer</p>
+              </div>
             </li>
           </ul>
         </div>
@@ -181,7 +189,7 @@
     </main>
 
     <footer class="address-section">
-      <div class="container container-ftr">
+      <div class="container">
         <a href="./index.html" class="logo logo-ftr link"
           >Web<span class="logo-part-ftr">Studio</span></a
         >
